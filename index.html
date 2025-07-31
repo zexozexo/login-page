@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LOG IN</title>
+  <!-- tailwindcss cdn -->
+  <script type="text/javascript" src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen bg-neutral-100">
+  <div class="top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 absolute z-50 w-[350px] p-5 bg-white border-b border-b-neutral-300 rounded-lg">
+    <form class="text-center flex flex-col gap-5" action="" method="post">
+      <div class="flex flex-col">
+        <h2 class="text-2xl font-semibold">LOG IN</h2>
+        <h4>log in to your account</h4>
+      </div>
+      <input class="p-3 bg-transparent border border-neutral-300 outline-none rounded-lg" type="text" name="username" placeholder="Enter your username" required>
+      <input class="p-3 bg-transparent border border-neutral-300 outline-none rounded-lg" type="text" name="username" placeholder="Enter your username" required>
+      <button class="text-white p-3 bg-orange-500 cursor-pointer rounded-lg" type="submit">LOG IN</button>
+      <div class="flex items-center justify-center gap-5">
+        <hr class="w-full bg-neutral-500">
+        <span class="text-neutral-500">or</span>
+        <hr class="w-full bg-neutral-500">
+      </div>
+      <a href="/">
+        <button class="w-full text-white p-3 bg-green-500 cursor-pointer rounded-lg" type="button">REGISTER</button>
+      </a>
+    </form>
+  </div>
+</body>
+</html>
